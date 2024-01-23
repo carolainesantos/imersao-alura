@@ -127,11 +127,11 @@ body {
 .section-playlist__content .section-playlist__button {
   display: flex;
   justify-content: center;
-  background-color: #fff;
+  background: radial-gradient(circle at 100% 50%, #046614, #0dc40d);
   color: #000;
   border-radius: 20px;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 800; /* antes era 700*/
   font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
