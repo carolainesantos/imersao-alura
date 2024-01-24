@@ -5,13 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spotify__Imersão - Alura</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="./src/assets/styles/reset.css">
+  <link rel="stylesheet" href="./src/assets/styles/vars.css">
+  <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://fontawesome.com/icons/book?f=classic&s=solid&an=fade&pc=%23b2b2b2">
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/icons/favicon.png">
-  <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon">
+
+  <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/book?f=classic&s=solid&an=fade&pc=%23b2b2b2"> -->
+
+  <link rel="stylesheet" href="src/assets/icons/favicon.png">
+  <link rel="icon" href="src/assets/icons/favicon.png" type="image/x-icon">
 
 </head>
 
@@ -20,7 +26,7 @@
     <nav class="sidebar__navigation">
       <div class="logo">
         <a href="">
-          <img src="./assets/icons/logo-spotify.png" alt="logo do spotify" />
+          <img src="src/assets/icons/logo-spotify.png" alt="logo do spotify" />
         </a>
       </div>
       <ul>
@@ -68,10 +74,49 @@
           <span>Português do Brasil</span>
         </button>
       </div>
-    </div> <!-- Fecha div library -->
+    </div> <!-- Aqui fecha div library -->
+  </div> <!-- Aqui fecha div sidebar -->
+
+  <main>
+    <div class="main-container">
+      <nav class="header__navigation">
+        <div class="navigation">
+          <button class="arrow-left">
+            <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+          </button>
+          <button class="arrow-right">
+            <img src="./src/assets/icons/small-right.png" alt="seta direita">
+          </button>
+        </div>
+
+        <div class="header__search">
+          <img src="./src/assets/icons/search.png" alt="">
+          <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+        </div>
+
+        <div class="header__login">
+          <button class="subscribe">Inscreva-se</button>
+          <button class="login">Entrar</button>
+        </div>
+      </nav>
+    </div>
+  </main>
 
 
-  </div> <!-- Fecha div principal -->
+
+  <footer class="disclaimer-premium">
+    <div class="text">
+      <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+      <p class="disclaimer-premium__subtitle">
+        Inscreva-se para curtir música ilimitada e podcasts só com alguns
+        anúncios. Não precisa de cartão de crédito.
+      </p>
+    </div>
+    <div class="button">
+      <button type="button">Inscreva-se grátis</button>
+    </div>
+  </footer>
+
 </body>
 
 </html>
