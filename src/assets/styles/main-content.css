@@ -1,6 +1,7 @@
 /* HEADER */
 
 .main-container {
+  margin-top: -33rem;
   max-width: 80vw;
   height: 100vh;
   margin-left: 320px;
@@ -65,9 +66,9 @@
 }
 
 .header__search input {
-  background: transparent;
+  background-color: transparent;
   border: none;
-  padding: 0px 100px 0 12px;
+  padding: 0 100px 0 12px;
   color: #fff;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -81,4 +82,14 @@
   font-weight: 700;
   background-color: transparent;
   margin-right: 32px;
+  border: none;
+}
+
+.header__login .login {
+  width: 100px;
+  height: 48px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
 }
